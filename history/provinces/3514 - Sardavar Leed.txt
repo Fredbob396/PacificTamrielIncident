@@ -1,0 +1,11 @@
+culture = imperial
+religion = daedric_cult
+capital = "Capital"
+owner = T35
+controller = T35
+add_core = T35
+hre = no
+base_tax = 2
+base_production = 2
+manpower = 3
+discovered_by = tamrielic discovered_by = XTE

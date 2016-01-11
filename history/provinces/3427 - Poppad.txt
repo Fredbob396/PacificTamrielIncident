@@ -1,0 +1,11 @@
+culture = nibenean
+religion = daedric_cult
+capital = "Capital"
+owner = T17
+controller = T17
+add_core = T17
+hre = no
+base_tax = 1
+base_production = 1
+manpower = 1
+discovered_by = tamrielic discovered_by = XTE

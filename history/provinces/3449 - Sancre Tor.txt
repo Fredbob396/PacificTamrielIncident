@@ -1,0 +1,11 @@
+culture = colovian
+religion = daedric_cult
+capital = "Capital"
+owner = T38
+controller = T38
+add_core = T38
+hre = no
+base_tax = 2
+base_production = 2
+manpower = 1
+discovered_by = tamrielic discovered_by = XTE

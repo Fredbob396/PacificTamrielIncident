@@ -1,0 +1,11 @@
+culture = colovian
+religion = nine_divines
+capital = "Capital"
+owner = T03
+controller = T03
+add_core = T03
+hre = no
+base_tax = 8
+base_production = 8
+manpower = 8
+discovered_by = tamrielic discovered_by = XTE

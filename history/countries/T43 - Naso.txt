@@ -1,0 +1,6 @@
+government = despotic_monarchy
+technology_group = tamrielic
+religion = nine_divines
+mercantilism = 0.2
+primary_culture = nibenean
+capital = 3415

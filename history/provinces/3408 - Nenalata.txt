@@ -1,0 +1,11 @@
+culture = nibenean
+religion = nine_divines
+capital = "Capital"
+owner = T07
+controller = T07
+add_core = T07
+hre = no
+base_tax = 2
+base_production = 1
+manpower = 2
+discovered_by = tamrielic discovered_by = XTE

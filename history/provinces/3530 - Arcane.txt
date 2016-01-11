@@ -1,0 +1,11 @@
+culture = imperial
+religion = nine_divines
+capital = "Capital"
+owner = T01
+controller = T01
+add_core = T01
+hre = no
+base_tax = 5
+base_production = 5
+manpower = 5
+discovered_by = tamrielic discovered_by = XTE

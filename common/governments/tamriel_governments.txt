@@ -1,0 +1,84 @@
+dunmer_great_house = {
+	republic = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	
+	republican_name = yes
+	royal_marriage = no
+	
+	ai_will_do = {
+		factor = 0
+	}
+
+	#bonus
+	global_autonomy = -0.2
+	stability_cost_modifier = -0.20
+	global_unrest = -1
+}
+
+tamrielic_elective_monarchy = {
+	monarchy = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	
+	#bonus
+	vassal_income = 0.25
+	global_unrest = -1
+	global_autonomy = -0.1
+}
+
+argonian_shogunate = {
+	republic = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	allow_royal_marriage = no
+	
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+	
+	#bonus
+	diplomatic_upkeep = 12
+}
+
+southern_argonian_province = {
+	republic = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	allow_royal_marriage = no
+	
+	#bonus
+	land_morale = 0.10
+	global_autonomy = -0.2
+}
+
+tinker_state = {
+	monarchy = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	
+	#bonus
+	technology_cost = -0.1
+}
+
+cyrodilic_empire = {
+	monarchy = yes
+	
+	unique_government = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	
+	allow_vassal_war = yes
+	allow_vassal_alliance = yes
+	
+	rank = {
+		3 = {
+			diplomatic_upkeep = 3
+		}
+	}
+}

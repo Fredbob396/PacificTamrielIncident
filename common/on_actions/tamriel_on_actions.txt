@@ -1,0 +1,6 @@
+# country
+on_startup = {
+	events = {
+		tamriel_bugfix.1
+	}
+}
