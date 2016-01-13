@@ -9,7 +9,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		tag = T01
+		has_country_flag = ruby_throne
 		owns_core_province = 3491
 		NOT = { has_country_flag = took_anvil }
 	}
@@ -48,7 +48,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		tag = T01
+		has_country_flag = ruby_throne
 		owns_core_province = 3476
 		NOT = { has_country_flag = took_kvatch }
 	}
@@ -87,7 +87,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		tag = T01
+		has_country_flag = ruby_throne
 		owns_core_province = 3456
 		NOT = { has_country_flag = took_chorrol }
 	}
@@ -126,7 +126,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		tag = T01
+		has_country_flag = ruby_throne
 		owns_core_province = 3518
 		NOT = { has_country_flag = took_bravil }
 	}
@@ -165,7 +165,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		tag = T01
+		has_country_flag = ruby_throne
 		owns_core_province = 3436
 		NOT = { has_country_flag = took_bruma }
 	}
@@ -204,7 +204,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		tag = T01
+		has_country_flag = ruby_throne
 		owns_core_province = 3429
 		NOT = { has_country_flag = took_cheydinhal }
 	}
@@ -243,7 +243,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		tag = T01
+		has_country_flag = ruby_throne
 		owns_core_province = 3345
 		NOT = { has_country_flag = took_leyawiin }
 	}
@@ -282,7 +282,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		tag = T01
+		has_country_flag = ruby_throne
 		owns_core_province = 3527
 		NOT = { has_country_flag = took_skingrad }
 	}
@@ -321,7 +321,7 @@ country_event = {
 	hidden = yes
 
 	trigger = {
-		tag = T01
+		has_country_flag = ruby_throne
 		owns_core_province = 3529
 		NOT = { has_country_flag = took_heartlands}
 	}
@@ -348,5 +348,61 @@ country_event = {
 			add_permanent_claim = ROOT
 		}
 		set_country_flag = took_heartlands
+	}
+}
+
+country_event = {
+	id = cyrodiil_reunify.19
+	title = "cyrodiil_reunify.EVTNAME19"
+	desc = "cyrodiil_reunify.EVTDESC19"
+	picture = COURT_eventPicture
+	hidden = yes
+
+	trigger = {
+		has_country_flag = ruby_throne
+			NOT = {
+			owns_core_province = 3529
+			}
+		}
+	option = {
+		name = "cyrodiil_reunify.EVTOPTA19"
+		FROM = { country_event = { id = cyrodiil_reunify.20 } }
+		}
+}
+	
+country_event = {
+	id = cyrodiil_reunify.20
+	title = "cyrodiil_reunify.EVTNAME20"
+	desc = "cyrodiil_reunify.EVTDESC20"
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "cyrodiil_reunify.EVTOPTA20"
+		clr_country_flag = ruby_throne
+		clr_country_flag = took_heartlands
+		clr_country_flag = took_anvil
+		clr_country_flag = took_kvatch
+		clr_country_flag = took_leyawiin
+		clr_country_flag = took_bruma
+		clr_country_flag = took_bravil
+		clr_country_flag = took_cheydinhal
+		clr_country_flag = took_chorrol
+		clr_country_flag = took_skingrad
+		clr_country_flag = cyrodiil_count_opinion
+		every_province= {
+			limit = {
+				superregion = cyrodiil_superregion
+			}
+			remove_claim = ROOT
+		}
+		every_country = {
+			limit = { has_country_flag = cyrodilic_count }
+			remove_opinion = {
+				who = FROM
+				modifier = cyrodiil_count_emperor
+			}
+		}
 	}
 }
