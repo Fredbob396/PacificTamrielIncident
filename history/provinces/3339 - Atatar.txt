@@ -1,4 +1,4 @@
-culture = nibenean
+culture = dagoni
 religion = daedric_cult
 capital = "Capital"
 owner = T47
