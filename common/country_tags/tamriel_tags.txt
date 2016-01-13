@@ -44,8 +44,9 @@ XPA = "countries/Paatru.txt"
 XRV = "countries/Reaven.txt"
 XSR = "countries/Saranyth.txt"
 XSP = "countries/Sarpa.txt"
-XTN = "countries/Tenmar Wall.txt"
 XTH = "countries/Thormir.txt"
+XTN = "countries/Tenmar Wall.txt"
+XTP = "countries/Topal.txt"
 XUM = "countries/Umpholo.txt"
 
 #Skyrim Jarls

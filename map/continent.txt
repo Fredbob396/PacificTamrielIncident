@@ -312,6 +312,8 @@ tamriel = {
 	3227 3228 3229 3236 3237 3238 3239 3240 3241
 	#Isle of Lilmothiit
 	3212 3213
+	#Topal Isle
+	3556 3557
 
 	#SKYRIM:
 	#Northern Valus / Morrowind Border
@@ -335,7 +337,7 @@ tamriel = {
 	
 	#CYRODIIL:
 	#County Leyawiin
-	3334 3335 3336 3337 3338 3339 3340 3341 3342 3343 3344 3345 3346 3347 3348 3349 3350 3351 3181 3242 3243
+	3181 3242 3243 3334 3335 3336 3337 3338 3339 3340 3341 3342 3343 3344 3345 3346 3347 3348 3349 3350 3351
 	#A few bits of wasteland that just happened to be added at this time
 	3352 3353 3354
 	#County Cheydinhal / East County Bravil

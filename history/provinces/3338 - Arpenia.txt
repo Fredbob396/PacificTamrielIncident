@@ -1,4 +1,4 @@
-culture = nibenean
+culture = dagoni
 religion = nine_divines
 capital = "Capital"
 owner = T47
