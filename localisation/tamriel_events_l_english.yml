@@ -43,4 +43,7 @@
  cyrodiil_flag.EVTOPTA8: "Power in numbers, I suppose"
  cyrodiil_count_emperor: "Imperial-County Relations"
  cyrodiil_count_county: "Inter-Country Relations"
+ cyrodiil_reunify.EVTNAME22: "Province taken!"
+ cyrodiil_reunify.EVTDESC22: "We have taken a province from the corrupt remenants of the Empire!"
+ cyrodiil_reunify.EVTOPTA22: "Excellent!"
  

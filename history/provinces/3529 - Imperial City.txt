@@ -8,4 +8,5 @@ hre = no
 base_tax = 15
 base_production = 10
 manpower = 12
+is_city = yes
 discovered_by = tamrielic discovered_by = XTE

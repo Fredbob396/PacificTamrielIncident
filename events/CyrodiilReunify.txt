@@ -406,3 +406,44 @@ country_event = {
 		}
 	}
 }
+
+#Destruction of the remenants
+province_event = {
+	id = cyrodiil_reunify.21
+	title = "cyrodiil_reunify.EVTNAME21"
+	desc = "cyrodiil_reunify.EVTDESC21"
+	picture = COURT_eventPicture
+	hidden = yes
+
+	trigger = {
+		province_id = 3529
+		owned_by = T01
+		NOT = { controlled_by = owner }
+		NOT = { controlled_by = REB }
+		has_siege = no
+	}
+
+	option = {
+		name = "cyrodiil_reunify.EVTOPTA21"
+		controller = { country_event = { id = cyrodiil_reunify.22 } }
+	}
+}
+	
+country_event = {
+	id = cyrodiil_reunify.22
+	title = "cyrodiil_reunify.EVTNAME22"
+	desc = "cyrodiil_reunify.EVTDESC22"
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "cyrodiil_reunify.EVTOPTA22"
+		every_province = {
+		limit = { area = city_isle_area }
+		cede_province = ROOT 
+		add_core = ROOT
+		remove_core = T01
+		}
+	}
+}
