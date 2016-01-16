@@ -1,6 +1,6 @@
 culture = nibenean
 religion = daedric_cult
-capital = "Capital"
+trade_goods = fish
 owner = T54
 controller = T54
 add_core = T54

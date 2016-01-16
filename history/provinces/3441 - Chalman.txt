@@ -1,6 +1,6 @@
 culture = imperial
 religion = nine_divines
-capital = "Capital"
+trade_goods = fish
 owner = T39
 controller = T39
 add_core = T39

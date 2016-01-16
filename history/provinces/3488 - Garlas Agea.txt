@@ -1,6 +1,6 @@
 culture = colovian
 religion = nine_divines
-capital = "Capital"
+trade_goods = fish
 owner = T02
 controller = T02
 add_core = T02
