@@ -1,6 +1,6 @@
 culture = nibenean
 religion = nine_divines
-capital = "Capital"
+trade_goods = fish
 owner = T07
 controller = T07
 add_core = T07

@@ -1,6 +1,6 @@
 culture = imperial
 religion = daedric_cult
-capital = "Capital"
+trade_goods = fish
 owner = T33
 controller = T33
 add_core = T33
