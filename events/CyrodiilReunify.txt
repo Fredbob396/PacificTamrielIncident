@@ -447,3 +447,66 @@ country_event = {
 		}
 	}
 }
+
+country_event = {
+	id = cyrodiil_reunify.23
+	title = "cyrodiil_reunify.EVTNAME23"
+	desc = "cyrodiil_reunify.EVTDESC23"
+	picture = COURT_eventPicture
+	
+	trigger = {
+		has_country_flag = ruby_throne
+		NOT = { has_country_flag = unified_empire }
+	}
+	
+	mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = "cyrodiil_reunify.EVTOPTA23" 
+		T02 = { country_event = { id = cyrodiil_reunify.24 } }
+		T03 = { country_event = { id = cyrodiil_reunify.24 } }
+		T04 = { country_event = { id = cyrodiil_reunify.24 } }
+		T05 = { country_event = { id = cyrodiil_reunify.24 } }
+		T06 = { country_event = { id = cyrodiil_reunify.24 } }
+		T07 = { country_event = { id = cyrodiil_reunify.24 } }
+		T08 = { country_event = { id = cyrodiil_reunify.24 } }
+		T53 = { country_event = { id = cyrodiil_reunify.24 } }
+		set_country_flag = unified_empire
+	}
+}
+
+country_event = {
+	id = cyrodiil_reunify.24
+	title = "cyrodiil_reunify.EVTNAME24"
+	desc = "cyrodiil_reunify.EVTDESC24"
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "cyrodiil_reunify.EVTOPTA24"
+		every_province = {
+			limit = {
+				owned_by = ROOT
+		}
+		cede_province = FROM
+		add_core = FROM
+		FROM = { country_event = { id = cyrodiil_reunify.25 } }
+		}
+	}
+}
+
+country_event = {
+	id = cyrodiil_reunify.25
+	title = "cyrodiil_reunify.EVTNAME25"
+	desc = "cyrodiil_reunify.EVTDESC25"
+	picture = COURT_eventPicture
+	
+	is_triggered_only = yes
+		
+	option = {
+		name = "cyrodiil_reunify.EVTOPTA25"
+	}
+}
