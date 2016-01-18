@@ -1,4 +1,4 @@
-government = despotic_monarchy
+government = cyrodilic_city
 technology_group = tamrielic
 religion = nine_divines
 mercantilism = 0.2

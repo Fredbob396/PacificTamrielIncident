@@ -4,6 +4,7 @@ country_event = {
 	title = "tamriel_bugfix.EVTNAME1"
 	desc = "tamriel_bugfix.EVTDESC1"
 	picture = COURT_eventPicture
+	hidden = yes
 
 	is_triggered_only = yes
 

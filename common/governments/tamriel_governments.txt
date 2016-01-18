@@ -82,3 +82,27 @@ cyrodilic_empire = {
 		}
 	}
 }
+
+cyrodilic_warlord = {
+	monarchy = yes
+
+	tribal = yes
+	
+	valid_for_new_country = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	
+	republican_name = yes
+	
+	ai_will_do = {
+		factor = 0
+	}
+}
+
+cyrodilic_city = {
+	republic = yes
+	
+	republican_name = yes
+	royal_marriage = no
+	
+}

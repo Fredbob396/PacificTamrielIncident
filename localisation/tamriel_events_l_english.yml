@@ -55,4 +55,8 @@
  cyrodiil_reunify.EVTNAME25: "$FROMCOUNTRY$ joins the Empire!"
  cyrodiil_reunify.EVTDESC25: "$FROMCOUNTRY$ has agreed to join the empire!"
  cyrodiil_reunify.EVTOPTA25: "Excellent!"
+ cyrodiil_flag.EVTNAME10: "Warlord relations!"
+ cyrodiil_flag.EVTDESC10: "Everybody hates us!"
+ cyrodiil_flag.EVTOPTA10: "Okay"
+ cyrodiil_warlord_other_opinion: "Cyrodilic Warlord"
  

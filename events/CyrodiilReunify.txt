@@ -456,16 +456,21 @@ country_event = {
 	
 	trigger = {
 		has_country_flag = ruby_throne
+		legitimacy = 90
+		num_of_cities = 20
 		NOT = { has_country_flag = unified_empire }
+		NOT = { is_at_war = yes }
+		NOT = { is_subjectt = yes }
 	}
 	
 	mean_time_to_happen = {
-		months = 120
+		months = 180
 	}
 
 	option = {
 		name = "cyrodiil_reunify.EVTOPTA23" 
 		change_tag = T55
+		change_government = cyrodilic_empire
 		set_government_rank = 3
 		T02 = { country_event = { id = cyrodiil_reunify.24 } }
 		T03 = { country_event = { id = cyrodiil_reunify.24 } }
