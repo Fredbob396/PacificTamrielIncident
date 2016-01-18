@@ -145,3 +145,6 @@ T50 = "countries/Teleman.txt"
 T51 = "countries/Redman.txt"
 T52 = "countries/Blueblood.txt"
 T54 = "countries/Welke.txt"
+
+#Cyrodiil Unified
+T55 = "countries/Cyrodiil.txt"

@@ -465,6 +465,8 @@ country_event = {
 
 	option = {
 		name = "cyrodiil_reunify.EVTOPTA23" 
+		change_tag = T55
+		set_government_rank = 3
 		T02 = { country_event = { id = cyrodiil_reunify.24 } }
 		T03 = { country_event = { id = cyrodiil_reunify.24 } }
 		T04 = { country_event = { id = cyrodiil_reunify.24 } }
