@@ -1,4 +1,5 @@
 government = cyrodilic_warlord
+government_rank = 1
 technology_group = tamrielic
 religion = nine_divines
 mercantilism = 0.2
