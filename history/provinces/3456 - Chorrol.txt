@@ -8,4 +8,6 @@ hre = no
 base_tax = 10
 base_production = 6
 manpower = 6
+is_city = yes
+trade_goods = wine
 discovered_by = tamrielic discovered_by = XTE

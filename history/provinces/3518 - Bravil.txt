@@ -8,4 +8,6 @@ hre = no
 base_tax = 7
 base_production = 7
 manpower = 6
+is_city = yes
+trade_goods = potions
 discovered_by = tamrielic discovered_by = XTE

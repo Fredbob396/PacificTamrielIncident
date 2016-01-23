@@ -76,9 +76,63 @@ cyrodilic_empire = {
 	allow_vassal_war = yes
 	allow_vassal_alliance = yes
 	
+	min_autonomy = 25
+	
 	rank = {
 		3 = {
 			diplomatic_upkeep = 3
+			land_forcelimit_modifier = -0.33
+		}
+	}
+	fixed_rank = 3
+}
+
+cyrodilic_warlord = {
+	monarchy = yes
+	
+	valid_for_new_country = no
+	allow_convert = no
+	
+		rank = {
+		1 = {
+			global_manpower_modifier = 0.25
+			land_forcelimit_modifier = 0.25
+			loot_amount = 0.50
+		}
+		2 = {
+			global_manpower_modifier = 0.5
+			land_forcelimit_modifier = 0.5	
+			loot_amount = 0.50
+		}
+		3 = {
+			global_manpower_modifier = 0.75
+			land_forcelimit_modifier = 0.75
+			loot_amount = 0.50
+		}
+	}
+}
+
+cyrodilic_city = {
+	republic = yes
+	
+	republican_name = yes
+	royal_marriage = no
+	allow_convert = no
+	
+	rank = {
+		1 = {
+			global_tax_modifier = 0.05
+			stability_cost_modifier = -0.05
+		}
+		2 = {
+			global_tax_modifier = 0.05
+			stability_cost_modifier = -0.05	
+			global_autonomy = -0.05
+		}
+		3 = {
+			global_tax_modifier = 0.05
+			stability_cost_modifier = -0.05
+			global_autonomy = -0.1
 		}
 	}
 }

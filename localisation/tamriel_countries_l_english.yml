@@ -128,7 +128,7 @@
  XWR: "Whiterun"
  XWR_ADJ: "Whiterun"
  
- T01: "Cyrodiil"
+ T01: "City Isle"
  T02: "Anvil"
  T03: "Skingrad"
  T04: "Chorrol"
@@ -182,7 +182,8 @@
  T51: "Redman"
  T52: "Blueblood"
  T54: "Welke"
- T01_ADJ: "Cyrodilic"
+ T55: "Cyrodiil"
+ T01_ADJ: "City Islander"
  T02_ADJ: "Anvil"
  T03_ADJ: "Skingrad"
  T04_ADJ: "Chorrol"
@@ -236,4 +237,5 @@
  T51_ADJ: "Redman"
  T52_ADJ: "Blueblood"
  T54_ADJ: "Welke"
+ T55_ADJ: "Cyrodilic"
  
