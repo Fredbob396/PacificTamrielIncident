@@ -1,6 +1,6 @@
 culture = nibenean
 religion = daedric_cult
-capital = "Capital"
+
 owner = T06
 controller = T06
 add_core = T06

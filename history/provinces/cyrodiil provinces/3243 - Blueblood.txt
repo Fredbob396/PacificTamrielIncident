@@ -1,6 +1,6 @@
 culture = dagoni
 religion = nine_divines
-capital = "Capital"
+
 owner = T52
 controller = T52
 add_core = T52
