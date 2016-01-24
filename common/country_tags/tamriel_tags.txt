@@ -113,6 +113,7 @@ T20 = "countries/Borderwatch.txt"
 T21 = "countries/Watersedge.txt"
 T22 = "countries/Sutch.txt"
 T23 = "countries/Weatherleah.txt"
+T56 = "countries/Weye.txt"
 
 #Cyrodiil Warlords
 T24 = "countries/Vlastarus.txt"
