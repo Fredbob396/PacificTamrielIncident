@@ -1,6 +1,6 @@
 culture = colovian
 religion = nine_divines
-capital = "Capital"
+
 owner = T25
 controller = T25
 add_core = T25

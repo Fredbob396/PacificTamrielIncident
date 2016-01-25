@@ -1,6 +1,6 @@
 culture = imperial
 religion = nine_divines
-capital = "Capital"
+
 owner = T40
 controller = T40
 add_core = T40

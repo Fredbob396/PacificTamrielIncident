@@ -1,6 +1,6 @@
 culture = colovian
 religion = daedric_cult
-capital = "Capital"
+
 owner = T53
 controller = T53
 add_core = T53
