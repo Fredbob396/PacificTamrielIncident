@@ -2522,19 +2522,19 @@ west_boethiah_area = {
 }
 
 sacred_lands_area = {
-    3098 3099 3100 3101
+    3098 3099 3100 3101 3659 3660
 }
 
 spine_of_nezuad_area = {
-    3097 3102 3107
+    3097 3102 3107 3658
 }
 
 akasunde_area = {
-    3095 3096 3106 3112
+    3095 3096 3106 3112 3656 3657 3658
 }
 
 orethan_area = {
-    3109 3110 3111 3115
+    3109 3110 3111 3115 3661
 }
 
 daimon_coast_area = {
@@ -2546,11 +2546,11 @@ almalexia_area = {
 }
 
 kanadesit_area = {
-    3108 3117 3118 3119
+    3108 3117 3118 3119 3655
 }
 
 east_thirr_area = {
-    3113 3121 3148
+    3113 3121 3148 3654
 }
 
 jer_ahkrin_area = {

@@ -25,6 +25,8 @@ technology = {
 	
 	infantry_shock		= 	0.1
 	
+	fort_15th = yes
+
 	enable = south_american_spearmen		
 	enable = native_indian_archer
 	enable = native_clubmen
@@ -291,7 +293,7 @@ technology = {
 	year = 1583
 	
 	#Star Bastions
-	fort3 = yes	
+	fort_16th = yes	
 
 	infantry_fire		=	0.5
 	
@@ -395,6 +397,8 @@ technology = {
 	supply_limit		=	0.5
 
 	war_college = yes
+
+	fort_17th = yes
 	
 	enable = austrian_tercio   
 	enable = swedish_gustavian		
@@ -495,7 +499,7 @@ technology = {
 	year = 1715
 	
 	#Covered Way
-	fort5	= yes	
+	fort_18th	= yes	
 	
 	combat_width = 2
 }

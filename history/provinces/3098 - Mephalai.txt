@@ -2,15 +2,15 @@
 
 culture = boethian
 religion = new_temple
-capital = "Windmoth"
+capital = "Norem"
 trade_goods = iron
 citysize = 15650
 hre = no
-base_tax = 2
+base_tax = 3
 base_production = 2
 manpower = 2
 owner = XNT
 controller = XNT
-add_core = XNT add_core = XTE
+add_core = XNT
 fort1 = yes
 discovered_by = tamrielic discovered_by = XTE

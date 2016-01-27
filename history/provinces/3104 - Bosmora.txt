@@ -2,7 +2,7 @@
 
 culture = indoril
 religion = new_temple
-capital = "Bosmora"
+capital = "Enamor Dayn"
 trade_goods = fish
 citysize = 15650
 hre = no
