@@ -28,6 +28,7 @@ europe_superregion = {
 	british_isles_region
 	germany_region
 	scandinavia_region
+	low_countries_region
 }
 
 africa_superregion = {

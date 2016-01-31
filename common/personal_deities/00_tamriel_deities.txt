@@ -1,0 +1,136 @@
+azura = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+boethiah = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+clavicus_vile = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+hermaeus_mora = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+hircine = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+jyggalag = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+malacath = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+mehrunes_dagon = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+mephala = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+meridia = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+molag_bal = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+namira = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+noctournal = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+peryite = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+sanguine = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+sheogorath = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}
+vaermina = {
+	diplomatic_reputation = 1
+	allow = { religion = daedra_worship }
+	sprite = 1
+	ai_will_do = {
+		factor = 1
+	}
+}

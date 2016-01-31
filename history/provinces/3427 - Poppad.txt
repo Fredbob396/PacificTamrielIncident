@@ -1,5 +1,5 @@
 culture = nibenean
-religion = daedric_cult
+religion = daedra_worship
 
 owner = T17
 controller = T17

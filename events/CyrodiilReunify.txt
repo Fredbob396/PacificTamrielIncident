@@ -135,7 +135,7 @@ country_event = {
 		FROM = { country_event = { id = cyrodiil_reunify.8 } }
 	}
 }
-	
+
 country_event = {
 	id = cyrodiil_reunify.8
 	title = "cyrodiil_reunify.EVTNAME8"
@@ -351,6 +351,7 @@ country_event = {
 	}
 }
 
+#Losing the Ruby Throne
 country_event = {
 	id = cyrodiil_reunify.19
 	title = "cyrodiil_reunify.EVTNAME19"
@@ -423,7 +424,7 @@ country_event = {
 	}
 }
 
-#Destruction of the remenants
+#Taking over the City Isle (1st war only)
 province_event = {
 	id = cyrodiil_reunify.21
 	title = "cyrodiil_reunify.EVTNAME21"
@@ -464,6 +465,7 @@ country_event = {
 	}
 }
 
+#Unifying the Empire
 country_event = {
 	id = cyrodiil_reunify.23
 	title = "cyrodiil_reunify.EVTNAME23"
@@ -506,6 +508,7 @@ country_event = {
 	}
 }
 
+#Counties and Towns choose whether to join the Empire or not based on relations
 country_event = {
 	id = cyrodiil_reunify.24
 	title = "cyrodiil_reunify.EVTNAME24"
@@ -546,6 +549,7 @@ country_event = {
 	}
 }
 
+#Event notifying the Empire that the country chose to join the Empire
 country_event = {
 	id = cyrodiil_reunify.25
 	title = "cyrodiil_reunify.EVTNAME25"
@@ -559,6 +563,7 @@ country_event = {
 	}
 }
 
+#Event notifying the Empire that the country declined to join the Empire
 country_event = {
 	id = cyrodiil_reunify.26
 	title = "cyrodiil_reunify.EVTNAME26"

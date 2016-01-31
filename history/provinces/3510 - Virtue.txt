@@ -1,5 +1,5 @@
 culture = imperial
-religion = daedric_cult
+religion = daedra_worship
 
 owner = T33
 controller = T33

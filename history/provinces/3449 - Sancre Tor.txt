@@ -1,5 +1,5 @@
 culture = colovian
-religion = daedric_cult
+religion = daedra_worship
 
 owner = T38
 controller = T38
