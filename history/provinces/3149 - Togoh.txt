@@ -2,7 +2,7 @@
 
 culture = velothi
 religion = new_temple
-capital = "Hla Ruhn"
+capital = "Rhanim"
 trade_goods = alchemical_goods
 citysize = 15650
 hre = no

@@ -2,7 +2,7 @@
 
 culture = hlaalu
 religion = new_temple
-capital = "Heimlyn"
+capital = "Ald Iuval"
 trade_goods = grain
 citysize = 15650
 hre = no

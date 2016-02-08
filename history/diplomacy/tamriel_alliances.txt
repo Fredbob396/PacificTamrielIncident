@@ -116,6 +116,13 @@ vassal = {
 
 vassal = {
 	first = XAR
+	second = XNL
+	start_date = 1444.11.11
+	end_date = 1821.1.1
+}
+
+vassal = {
+	first = XAR
 	second = XON
 	start_date = 1444.11.11
 	end_date = 1821.1.1
