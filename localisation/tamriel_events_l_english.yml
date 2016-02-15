@@ -66,4 +66,7 @@
  cyrodiil_flag.EVTDESC12: "The new emperor hates us!"
  cyrodiil_flag.EVTOPTA12: "Okay"
  cyrodiil_warlord_other_opinion: "Cyrodilic Warlord"
+ cyrodiil_religion.EVTNAME1: "People Turn to Daedra Worship"
+ cyrodiil_religion.EVTDESC1: "The people in one of our provinces are now worshiping Daedra"
+ cyrodiil_religion.EVTOPTA: "An interesting development"
  

@@ -1,7 +1,7 @@
 #Region - Eastmarch
 
 culture = orcish
-religion = malacath
+religion = daedra_worship
 capital = "Narzulbur"
 trade_goods = copper
 citysize = 15650

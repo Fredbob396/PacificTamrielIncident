@@ -1,7 +1,7 @@
 #Region - Haafingar
 
 culture = haafingar
-religion = malacath
+religion = daedra_worship
 capital = "Northwatch"
 trade_goods = fish
 citysize = 15650

@@ -1,7 +1,7 @@
 #Region - Haafingar
 
 culture = orcish
-religion = malacath
+religion = daedra_worship
 capital = "Mor Khazgur"
 trade_goods = copper
 citysize = 15650

@@ -1,6 +1,6 @@
 government = despotic_monarchy
 technology_group = tamrielic
-religion = malacath
+religion = daedra_worship
 mercantilism = 0.2
 primary_culture = orcish
 capital = 3265	# Largashbur

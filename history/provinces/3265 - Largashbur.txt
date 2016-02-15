@@ -1,7 +1,7 @@
 #Region - The Rift
 
 culture = orcish
-religion = malacath
+religion = daedra_worship
 capital = "Largashbur"
 trade_goods = fish
 citysize = 15650

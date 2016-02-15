@@ -1,7 +1,7 @@
 #Region - The Reach
 
 culture = orcish
-religion = malacath
+religion = daedra_worship
 capital = "Dushnikh Yal"
 trade_goods = copper
 citysize = 15650
