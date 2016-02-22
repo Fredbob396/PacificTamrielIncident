@@ -29,7 +29,7 @@ country_event = {
 	title = "cyrodiil_flag.EVTNAME2"
 	desc = "cyrodiil_flag.EVTDESC2"
 	picture = COURT_eventPicture
-	
+	hidden = yes
 	is_triggered_only = yes
 		
 	option = {
@@ -50,7 +50,7 @@ country_event = {
 	trigger = {
 		owns_core_province = 3529
 		NOT = { has_country_flag = ruby_throne }
-		NOT = { tag = T01 }
+		NOT = { has_country_flag = cityisle_prewar }
 	}
 	option = {
 		name = "cyrodiil_flag.EVTOPTA3"
@@ -102,7 +102,7 @@ country_event = {
 	title = "cyrodiil_flag.EVTNAME6"
 	desc = "cyrodiil_flag.EVTDESC6"
 	picture = COURT_eventPicture
-	
+	hidden = yes
 	is_triggered_only = yes
 		
 	option = {
@@ -140,7 +140,7 @@ country_event = {
 	title = "cyrodiil_flag.EVTNAME8"
 	desc = "cyrodiil_flag.EVTDESC8"
 	picture = COURT_eventPicture
-	
+	hidden = yes
 	is_triggered_only = yes
 		
 	option = {
@@ -179,7 +179,7 @@ country_event = {
 	title = "cyrodiil_flag.EVTNAME10"
 	desc = "cyrodiil_flag.EVTDESC10"
 	picture = COURT_eventPicture
-	
+	hidden = yes
 	is_triggered_only = yes
 		
 	option = {
@@ -226,7 +226,7 @@ country_event = {
 	title = "cyrodiil_flag.EVTNAME12"
 	desc = "cyrodiil_flag.EVTDESC12"
 	picture = COURT_eventPicture
-	
+	hidden = yes
 	is_triggered_only = yes
 		
 	option = {
@@ -241,5 +241,67 @@ country_event = {
 			}
 		}
 		set_country_flag = cyrodiil_warlord_emperor_opinion
+	}
+}
+
+#Gives the City Isle a flag preventing it from taking the Ruby Throne until the end of the war
+country_event = {
+	id = cyrodiil_flag.13
+	title = "cyrodiil_flag.EVTNAME13"
+	desc = "cyrodiil_flag.EVTDESC13"
+	picture = COURT_eventPicture
+	hidden = yes
+	trigger = {
+		tag = T01
+		NOT = { has_country_flag = cityisle_prewar}
+		NOT = { has_country_flag = cityisle_postwar}
+	}
+	option = {
+		name = "cyrodiil_flag.EVTOPTA9"
+		FROM = { country_event = { id = cyrodiil_flag.14 } }
+	}
+}
+country_event = {
+	id = cyrodiil_flag.14
+	title = "cyrodiil_flag.EVTNAME14"
+	desc = "cyrodiil_flag.EVTDESC14"
+	picture = COURT_eventPicture
+	hidden = yes
+	is_triggered_only = yes
+	option = {
+		name = "cyrodiil_flag.EVTOPTA14"
+		set_country_flag = cityisle_prewar
+	}
+}
+
+#Removes the flag preventing the City Isle from taking the Ruby Throne should they survive the starting war
+
+country_event = {
+	id = cyrodiil_flag.15
+	title = "cyrodiil_flag.EVTNAME15"
+	desc = "cyrodiil_flag.EVTDESC15"
+	picture = COURT_eventPicture
+	hidden = yes
+	trigger = {
+		has_country_flag = cityisle_prewar
+		NOT = { has_country_flag = cityisle_postwar }
+		is_at_war = no
+	}
+	option = {
+		name = "cyrodiil_flag.EVTOPTA9"
+		FROM = { country_event = { id = cyrodiil_flag.16 } }
+	}
+}
+country_event = {
+	id = cyrodiil_flag.16
+	title = "cyrodiil_flag.EVTNAME16"
+	desc = "cyrodiil_flag.EVTDESC16"
+	picture = COURT_eventPicture
+	hidden = yes
+	is_triggered_only = yes
+	option = {
+		name = "cyrodiil_flag.EVTOPTA16"
+		clr_country_flag = cityisle_prewar
+		set_country_flag = cityisle_postwar
 	}
 }
