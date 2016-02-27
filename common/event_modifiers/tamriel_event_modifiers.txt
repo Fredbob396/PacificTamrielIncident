@@ -5,3 +5,6 @@
 argonian_new_ruler_bugfix = {
 	ae_impact = -0.001
 }
+daedric_shrine = {
+	local_missionary_strength = -1
+}

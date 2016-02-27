@@ -11,3 +11,8 @@ manpower = 2
 is_city = yes
 trade_goods = tobacco
 discovered_by = tamrielic discovered_by = XTE
+
+add_permanent_province_modifier = {
+	name = daedric_shrine
+	duration = -1
+}

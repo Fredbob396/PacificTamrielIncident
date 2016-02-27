@@ -1,5 +1,5 @@
 culture = colovian
-religion = nine_divines
+religion = daedra_worship
 
 owner = T22
 controller = T22
@@ -11,3 +11,8 @@ manpower = 5
 is_city = yes
 trade_goods = wine
 discovered_by = tamrielic discovered_by = XTE
+
+add_permanent_province_modifier = {
+	name = daedric_shrine
+	duration = -1
+}

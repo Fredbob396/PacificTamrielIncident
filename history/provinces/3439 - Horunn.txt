@@ -1,5 +1,5 @@
 culture = nibenean
-religion = nine_divines
+religion = daedra_worship
 
 owner = T06
 controller = T06
@@ -11,3 +11,8 @@ manpower = 2
 is_city = yes
 trade_goods = fur
 discovered_by = tamrielic discovered_by = XTE
+
+add_permanent_province_modifier = {
+	name = daedric_shrine
+	duration = -1
+}
